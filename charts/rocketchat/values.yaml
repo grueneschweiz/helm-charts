@@ -10,6 +10,16 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
+externalMongodbUrl: "" #mongodb://user:password@localhost:27017/rocketchat
+externalMongodbOplogUrl: "" #mongodb://user:password@localhost:27017/local?replicaSet=rs0&authSource=admin
+
+smtp:
+  enabled: false
+  username:
+  password:
+  host:
+  port: 587
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
