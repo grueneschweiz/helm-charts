@@ -3,6 +3,16 @@ entries:
   rocketchat:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-05-24T12:06:30.018411466Z"
+    description: A Helm chart for Kubernetes
+    digest: 627272f97392757fbf94244de6eb0f1926eba9a912fa38de280d41fa866d7ee4
+    name: rocketchat
+    type: application
+    urls:
+    - https://github.com/grueneschweiz/helm-charts/releases/download/rocketchat-0.2.0/rocketchat-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-05-24T11:04:13.899152925Z"
     description: A Helm chart for Kubernetes
     digest: 74abcfca6364de274b389b3ff83481044013872787bc499d1e575b3c49cbbb5f
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/grueneschweiz/helm-charts/releases/download/rocketchat-0.1.0/rocketchat-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-24T11:04:13.899580529Z"
+generated: "2022-05-24T12:06:30.018419866Z"
